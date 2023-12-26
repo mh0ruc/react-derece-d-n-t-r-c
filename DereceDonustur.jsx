@@ -41,9 +41,9 @@ function DereceDonustur() {
        
       />
       <br />
-      <button onClick={handleClick} id='kel' type="button" className="btn btn-primary" style={{ width: "100%", marginBottom: "4px" }}>Kelvin'e Dönüştür</button>
+     <button onClick={handleClick} id='kel' type="button" className="btn-outline-danger" style={{ width: "100%", marginBottom: "4px", fontWeight:"bold", borderRadius:"10px"}}>Kelvin'e Dönüştür</button>
       <br />
-      <button onClick={handleClick} id='fah' type="button" className="btn btn-primary" style={{ width: "100%" }}>Fahrenheit'a Dönüştür</button>
+      <button onClick={handleClick} id='fah' type="button" className="btn-outline-danger" style={{ width: "100%" , marginBottom: "4px", fontWeight:"bold", borderRadius:"10px"}}>Fahrenheit'a Dönüştür</button>
       <br />
       <label id="sonuc" htmlFor="sonuc" style={{ fontWeight: "bold" }}> {sonuc}</label>
     </div>
